@@ -1,6 +1,6 @@
 # ChatApp
 Multithreaded chat server and client user interface that allows people to communicate over a local network. 
-![ChatApp Preview](https://i.imgur.com/h7hE2zG.png)
+![ChatApp Preview](https://i.imgur.com/xG5IHc1.png)
 
 # How does it work?
 Uses websockets to perform live communication on a local network. The server accepts new connections and creates a new thread to handle future requests to a client that connects. The server listens in each thread's input stream and relays messages to all clients connected to the server. Whenever a client logs on, disconnects, or messages, everyone connected are informed.
